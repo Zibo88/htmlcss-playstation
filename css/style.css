@@ -177,6 +177,10 @@ header{
     margin: 1rem 0;
 }
 
+.title_section4 {
+    font-size: 42px;
+}
+
 .ms_card button {
     border-radius: 1rem;
 }
@@ -197,7 +201,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid transparent;  
+     
 }
 
 
@@ -214,6 +218,33 @@ header{
     margin: 1rem 0;
     font-size: 20px;
 }
+
+/* SETTIMA sezione */
+/* primo container */
+.new_exit {
+    background-color: #1f1f1f;
+    padding-bottom: 1rem;
+}
+
+.new_exit h2 {
+    font-size: 36px;
+}
+
+.new_exit p{
+    font-size: 28px;
+}
+
+/* secondo container */
+
+.col-6.col-sm-4.col-lg-2 img{
+    display: inline-block;
+}
+
+.new_exit_caption.white {
+    font-size: 21px;
+}
+
+/* OTTAVA sezione */
 
 
 
@@ -326,7 +357,18 @@ header{
         width: 50%;
         margin-bottom: 7rem;
     }
+
 }
+
+/* Settima sezione */
+@media screen and (min-width:992px){
+
+    .new_exit_caption.white {
+        font-size: 15px;
+    }
+}
+
+
 
 
 

@@ -11,12 +11,30 @@ ul {
     display: flex;
 }
 
-/* HEADER */
+img{
+    width: 100%;
+}
+
+.text{
+    font-size: 13px;
+}
+
+.white{
+    color:white;
+}
+
+/****************** HEADER ***************/
 
 header{
     font-family: Helvetica, sans-serif;
+    height:75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
+/* header top */
 .header_top {
     background-color: black;
     text-align: right;
@@ -31,6 +49,7 @@ header{
 /* header bottom */
 .header_bottom.flex {
     justify-content: space-between;
+    background-color: white;
 }
 
 /* left */
@@ -42,6 +61,10 @@ header{
     display: inline;
 } 
 
+.sm_play_logo {
+    width: 50px;
+}
+
 .left_item_section {
     font-size: 14px;
 }
@@ -50,6 +73,10 @@ header{
 .header_bottom_right{
     text-align: right;
     padding-right: 1rem;
+}
+
+.hamburger {
+    display: inline-block;
 }
 
 .right_item_section {
@@ -69,6 +96,64 @@ header{
 }
 
 
+/******************** MAIN *****************/
+
+/* section jambotron */
+
+.the_jambotron {
+    margin-top: 75px;
+    width: 100%;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid transparent;  
+}
+
+
+.container_jambotron {
+    margin: 0 auto;
+    margin-top: 300px;
+    width: 90%;   
+}
+
+.container_jambotron img{
+    width: 200px;
+}
+
+.container_jambotron h2{
+    margin: 1rem 0;
+}
+
+.container_jambotron .text.white {
+    margin: 1.5rem 0;
+}
+
+/* bottone */
+.shop-now.white{
+    background-color: #cd3c10;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+
+/* SECONDA SEZIONE */
+
+.ms_card {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    border: 1 px solid blue;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+
+
+
+
 
 
 
@@ -80,6 +165,10 @@ header{
 @media screen and (min-width:992px) {
     .header_bottom_left{
         width: 60%;
+    }
+
+    .header_bottom_left_item play_logo .sm_play_logo {
+        width: 50px;
     }
 
     .header_bottom_left_list .header_bottom_left_item {
@@ -123,6 +212,19 @@ header{
 
     
 }
+
+
+/* JAMBOTRON */
+@media screen and (min-width:992px){
+    .container_jambotron {
+        margin-left: 80px;
+        margin-top: 320px;
+        width: 40%;
+       ;
+        
+    }
+    
+} 
 
 
 

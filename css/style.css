@@ -246,11 +246,11 @@ header{
 
 /* OTTAVA sezione */
 
-.explore .explore_title, .explore_text.light-grey {
+.explore .title, .explore_text.light-grey {
     text-align: center;
 }
 
-.explore_title {
+.title {
     font-size: 35px;
     padding: 2rem 0;
 }
@@ -298,6 +298,24 @@ header{
 .col-md-6.d-none.d-md-block .ms_card {
     margin: 0;
 }
+
+/* Decima sezione */
+
+.discounts .title{
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.discounts .light-grey{
+    text-align: center;
+    font-size: 22px;
+}
+
+.discounts img {
+    border-radius: 0;
+}
+
 
 
 

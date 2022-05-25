@@ -134,7 +134,7 @@ header{
 
 .the_jambotron {
     margin-top: 75px;
-    padding: 120px 0;
+    padding: 180px 0 20px 0;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -412,6 +412,10 @@ header{
     color: black;
 }
 
+.ps-now .col-12.col-md-6 .ms_card.mgtb:hover a{
+    color: #4675e5;
+}
+
 /* DODICESIMA sezione */
 .social {
     padding: 1.5rem 0;
@@ -521,12 +525,20 @@ footer{
 
 
 /* JAMBOTRON */
-@media screen and (min-width:992px){
-    .container_jambotron {
-        margin-left: 80px;
-        margin-top: 320px;
-        width: 40%;   
+@media screen and (min-width:768px){
+    .the_jambotron img{
+        width:400px;
     }
+
+    .the_jambotron h2 {
+        font-size: 36px;
+    }
+
+    .the_jambotron .text.white, .shop-now.white {
+        font-size: 15px;
+    }
+
+    
 } 
 
 /* QUARTA sezione */

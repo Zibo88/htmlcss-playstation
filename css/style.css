@@ -142,7 +142,6 @@ header{
     border: 1px solid transparent;  
 }
 
-
 .the_jambotron img{
     width: 200px;
 }
@@ -212,7 +211,6 @@ header{
 }
 
 
-
 /* QUINTA sezione */
 .product_caption {
     font-size: 13px;
@@ -230,6 +228,7 @@ header{
     opacity: 50%;
 } 
 
+
 /* SESTA sezione */
 
 .section_6 {
@@ -239,7 +238,6 @@ header{
     background-repeat: no-repeat;
     background-position: center;  
 }
-
 
 .section6_component .take_two_logo {
     width: 78%;
@@ -254,6 +252,7 @@ header{
     margin: 1rem 0;
     font-size: 20px;
 }
+
 
 /* SETTIMA sezione */
 
@@ -291,6 +290,7 @@ header{
     vertical-align: super;
     font-size: 10px;
 }
+
 
 /* OTTAVA sezione */
 
@@ -368,11 +368,11 @@ header{
 .discounts {
     padding: 1.5rem 0;
 }
+
 .discounts .title{
     text-align: center;
     font-size: 45px;
 }
-
 
 .discounts .light-grey{
     text-align: center;
@@ -382,6 +382,7 @@ header{
 .discounts img {
     border-radius: 0;
 }
+
 
 /* UNDICESIMA sezione */
 
@@ -420,6 +421,7 @@ header{
 .social {
     padding: 1.5rem 0;
 }
+
 .social h2 {
     text-align: center;
     padding: 3rem 0;

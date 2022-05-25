@@ -110,7 +110,7 @@ header{
 
 .the_jambotron {
     margin-top: 75px;
-    width: 100%;
+    padding: 80px 0;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,22 +119,15 @@ header{
 }
 
 
-.container_jambotron {
-    margin: 0 auto;
-    padding-top: 300px;
-    padding-bottom: 1.5rem;
-    width: 95%;   
-}
-
-.container_jambotron img{
+.the_jambotron img{
     width: 200px;
 }
 
-.container_jambotron h2{
+.the_jambotron h2{
     margin: 1rem 0;
 }
 
-.container_jambotron .text.white {
+.the_jambotron .text.white {
     margin: 1.5rem 0;
 }
 

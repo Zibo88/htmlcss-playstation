@@ -197,8 +197,7 @@ header{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-     
+    background-position: center;  
 }
 
 
@@ -390,29 +389,12 @@ footer{
 }
 
 .ms_footer_bottom_container{
-    padding: 1rem 0 1rem 0.8rem;
-   
+    padding: 1rem 0 1rem 0.8rem; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ms_footer_container li:hover {
+    color: darkmagenta;
+}
 
 
 
@@ -470,8 +452,6 @@ footer{
     .lens{
         width: 14px;
     }
-
-    
 }
 
 
@@ -480,10 +460,8 @@ footer{
     .container_jambotron {
         margin-left: 80px;
         margin-top: 320px;
-        width: 40%;
-        
+        width: 40%;   
     }
-    
 } 
 
 /* QUARTA sezione */
@@ -496,7 +474,6 @@ footer{
     .product_caption{
         display: inline-block;
     }
-
 }
 
 
@@ -513,12 +490,10 @@ footer{
         width: 50%;
         margin-bottom: 7rem;
     }
-
 }
 
 /* SETTIMA sezione */
 @media screen and (min-width:992px){
-
     .new_exit_caption.white {
         font-size: 15px;
     }

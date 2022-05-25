@@ -167,7 +167,7 @@ header{
 }
 
 
-/* QUARTAsezione */
+/* QUARTA sezione */
 .ms_card .text.light-grey {
     font-size: 20px;
     margin: 1rem 0;
@@ -181,6 +181,8 @@ header{
     border-radius: 1rem;
 }
 
+
+
 /* QUINTA sezione */
 .product_caption {
     font-size: 13px;
@@ -189,6 +191,10 @@ header{
     display: none;
 }
 
+#bb {
+    border-bottom: 2px solid #5ca2df;
+    border-radius: 0;
+}
 
 /* SESTA sezione */
 

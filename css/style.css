@@ -226,6 +226,10 @@ header{
     border-radius: 0;
 }
 
+.related-products .col-4.col-md-2:hover img {
+    opacity: 50%;
+} 
+
 /* SESTA sezione */
 
 .section_6 {

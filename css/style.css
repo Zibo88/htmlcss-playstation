@@ -148,6 +148,9 @@ header{
 
 
 /* SECONDA SEZIONE */
+.ms_small_card {
+    margin: 1rem 0;
+}
 
 .ms_card {
     margin: 1rem 0;
@@ -171,7 +174,7 @@ header{
 }
 
 
-/* Quarta sezione */
+/* QUARTAsezione */
 .ms_card .text.light-grey {
     font-size: 20px;
     margin: 1rem 0;
@@ -193,9 +196,6 @@ header{
     display: none;
 }
 
-.related-products .row{
-    justify-content: space-between;
-}
 
 /* SESTA sezione */
 
@@ -224,6 +224,7 @@ header{
 }
 
 /* SETTIMA sezione */
+
 /* primo container */
 .new_exit {
     background-color: #1f1f1f;
@@ -250,6 +251,9 @@ header{
 
 /* OTTAVA sezione */
 
+.explore {
+    padding-bottom: 1.5rem;
+}
 .explore .title, .explore_text.light-grey {
     text-align: center;
 }
@@ -274,11 +278,12 @@ header{
     font-size: 20px;
 }
 
-/* Nona sezione */
+/* NONA sezione */
 
 /* prima colonna */
 .ps-plus {
     background-color: #bebcbb;
+    padding: 1.5rem 0;
 }
 
 .ps-plus .ps_plus_logo{
@@ -303,8 +308,10 @@ header{
     margin: 0;
 }
 
-/* Decima sezione */
-
+/* DECIMA sezione */
+.discounts {
+    padding: 1.5rem 0;
+}
 .discounts .title{
     text-align: center;
     font-size: 45px;
@@ -324,6 +331,7 @@ header{
 
 .ps-now {
     background-color: #161c3b;
+    padding: 1.5rem 0;
 }
 
 .ps-now .ps_plus_now{
@@ -349,7 +357,9 @@ header{
 }
 
 /* DODICESIMA sezione */
-
+.social {
+    padding: 1.5rem 0;
+}
 .social h2 {
     text-align: center;
     padding: 3rem 0;
@@ -360,6 +370,36 @@ header{
     border-radius: 0;
 }
 
+/******************** FOOTER *********************/
+
+footer{
+    background-color: #00439b;
+}
+
+#logo-footer{
+    width: 15%;
+    margin: 1rem 0;
+}
+
+#sie-img {
+    width: 15%;
+    margin: 2rem 0 0 0;
+}
+
+/* Footer bottom */
+
+.footer-info.white {
+    text-decoration:underline;
+}
+
+.ms_footer_container {
+    padding-top: 1.5rem;
+}
+
+.ms_footer_bottom_container{
+    padding: 1rem 0 1rem 0.8rem;
+   
+}
 
 
 
@@ -383,8 +423,10 @@ header{
 
 
 
-/* MEDIA */
-/* header */
+
+
+/****************** MEDIA *******************/
+/* HEADER */
 
 /* left */
 
@@ -393,7 +435,7 @@ header{
         width: 60%;
     }
 
-    .header_bottom_left_item play_logo .sm_play_logo {
+    .header_bottom_left_item .play_logo .sm_play_logo {
         width: 50px;
     }
 
@@ -451,7 +493,7 @@ header{
     
 } 
 
-/* Quarta sezione */
+/* QUARTA sezione */
 
 @media screen and (min-width:768px) {
     .col-4.col-md-2 {
@@ -472,7 +514,7 @@ header{
 }
 
 
-/* Sesta sezione */
+/* SESTA sezione */
 @media screen and (min-width:992px){
     .section6_component .take_two_logo {
         width: 50%;
@@ -481,7 +523,7 @@ header{
 
 }
 
-/* Settima sezione */
+/* SETTIMA sezione */
 @media screen and (min-width:992px){
 
     .new_exit_caption.white {
@@ -489,7 +531,7 @@ header{
     }
 }
 
-/* Undicesima sezione */
+/* UNDICESIMA sezione */
 
 @media screen and (min-width:992px) {
     .ps-now .ms_card.mgtb {
@@ -498,7 +540,7 @@ header{
     }
 }
 
-/* Dodicesima sezione */
+/* DODICESIMA sezione */
 
 @media screen and (min-width:768px) {
     .social .ms_card img {
@@ -512,6 +554,14 @@ header{
         padding: 1.5rem;
         margin: 2rem 0;
         width: 90%;
+    }
+}
+
+/* FOOTER */
+
+@media screen and (min-width:992px) {
+    .ms_footer_container {
+        display: flex;
     }
 }
 

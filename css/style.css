@@ -40,6 +40,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 
 /* header top */
@@ -170,6 +171,10 @@ header{
 
 .ms_card {
     margin: 1rem 0;
+}
+
+.col-6.col-sm-4.col-lg-2:hover img {
+   opacity: 50%;
 }
 
 .ms_card img{

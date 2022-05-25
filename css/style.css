@@ -270,6 +270,37 @@ header{
     font-size: 20px;
 }
 
+/* Nona sezione */
+
+/* prima colonna */
+.ps-plus {
+    background-color: #bebcbb;
+}
+
+.ps-plus .ps_plus_logo{
+    width: 60%;
+    padding: 1rem 0;
+}
+
+.ps-plus p {
+    margin: 1rem 0;
+    font-size: 18px;
+}
+
+.btn_grey {
+    background-color: #d9dadc;
+    color: #4675e5;
+    font-weight: 600;
+}
+
+
+/* seconda colonna */
+.col-md-6.d-none.d-md-block .ms_card {
+    margin: 0;
+}
+
+
+
 
 
 

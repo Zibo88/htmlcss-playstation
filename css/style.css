@@ -273,9 +273,11 @@ header{
     display: inline-block;
 }
 
+/* agisce anche sulle card della seconda sezione (html riga 164) */
 .col-6.col-sm-4.col-lg-2:hover img {
     opacity: 50%;
  }
+/****************************************************/
 
 .new_exit_caption.white {
     font-size: 21px;
@@ -450,6 +452,7 @@ footer{
 
 .ms_footer_container li:hover {
     color: darkmagenta;
+    cursor: pointer;
 }
 
 

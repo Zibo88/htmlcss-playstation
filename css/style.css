@@ -193,6 +193,10 @@ header{
     display: none;
 }
 
+.related-products .row{
+    justify-content: space-between;
+}
+
 /* SESTA sezione */
 
 .section_6 {
@@ -316,6 +320,52 @@ header{
     border-radius: 0;
 }
 
+/* UNDICESIMA sezione */
+
+.ps-now {
+    background-color: #161c3b;
+}
+
+.ps-now .ps_plus_now{
+    width: 60%;
+}
+
+.ps-now .ps_now_banner {
+    width: 100%;
+}
+
+.ps-now .white{
+    margin: 1.5rem 0;
+    font-size: 18px;
+}
+
+.btn_white {
+    background-color: white;
+    font-weight: 600;
+}
+
+.btn_white a {
+    color: black;
+}
+
+/* DODICESIMA sezione */
+
+.social h2 {
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 30px;
+}
+
+.social .ms_card img {
+    border-radius: 0;
+}
+
+
+
+
+
+
+
 
 
 
@@ -436,6 +486,32 @@ header{
 
     .new_exit_caption.white {
         font-size: 15px;
+    }
+}
+
+/* Undicesima sezione */
+
+@media screen and (min-width:992px) {
+    .ps-now .ms_card.mgtb {
+        
+        margin: 4rem 0;
+    }
+}
+
+/* Dodicesima sezione */
+
+@media screen and (min-width:768px) {
+    .social .ms_card img {
+        padding: 0.4rem;
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .social .ms_card img {
+        padding: 1.5rem;
+        margin: 2rem 0;
+        width: 90%;
     }
 }
 

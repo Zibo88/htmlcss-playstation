@@ -266,6 +266,16 @@ header{
     margin: 0;
 }
 
+.registred {
+    height: 10px;
+    vertical-align: super;
+
+}
+
+.registred i {
+    font-size: 10px;
+}
+
 /* card */
 
 .explore_caption_card {

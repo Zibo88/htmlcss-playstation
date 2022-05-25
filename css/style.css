@@ -63,11 +63,21 @@ header{
 /* left */
 .header_bottom_left_list .header_bottom_left_item {
     display:none;
+
 }
 
 .header_bottom_left_list .header_bottom_left_item.play_logo {
     display: inline;
 } 
+
+.header_bottom_left_item a{
+    color: black;
+}
+
+.header_bottom_left_item a:hover{
+    color: #4675e5;
+}
+
 
 .sm_play_logo {
     width: 50px;
@@ -90,12 +100,25 @@ header{
 .right_item_section {
     font-size: 14px;
     padding: 0 0.4rem;
+    color: black;
+}
+
+.header_bottom_right_item .right_item_section:hover{
+    color: #4675e5;
+}
+
+.header_bottom_right_item .right_item_section.btn_black:hover {
+    color: #4675e5;
 }
 
 .header_bottom_right .hamburger{
     font-size: 30px;
     line-height: 42px;
     padding: 0rem 1.5rem 0 0;
+}
+
+.hamburger:hover{
+    color: #4675e5;
 }
 
 .header_bottom_right_list .header_bottom_right_item {
@@ -110,7 +133,7 @@ header{
 
 .the_jambotron {
     margin-top: 75px;
-    padding: 80px 0;
+    padding: 120px 0;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,14 +294,15 @@ header{
     margin: 0;
 }
 
-.registred {
-    height: 10px;
-    vertical-align: super;
 
+
+.registred {
+    height: 30px;
+    vertical-align: super;
 }
 
 .registred i {
-    font-size: 10px;
+    font-size: 11px;
 }
 
 /* card */
@@ -471,7 +495,7 @@ footer{
     }
 
     .lens{
-        width: 14px;
+        width: 20px;
     }
 }
 

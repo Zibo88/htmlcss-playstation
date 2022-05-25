@@ -311,8 +311,6 @@ header{
     margin: 0;
 }
 
-
-
 .registred {
     height: 30px;
     vertical-align: super;
@@ -320,6 +318,10 @@ header{
 
 .registred i {
     font-size: 11px;
+}
+
+.explore .col-12.col-md-4:hover img {
+    opacity: 50%;
 }
 
 /* card */

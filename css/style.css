@@ -247,6 +247,11 @@ header{
     font-size: 21px;
 }
 
+.tm{
+    vertical-align: super;
+    font-size: 10px;
+}
+
 /* OTTAVA sezione */
 
 .explore {

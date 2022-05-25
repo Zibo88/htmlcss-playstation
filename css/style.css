@@ -246,7 +246,29 @@ header{
 
 /* OTTAVA sezione */
 
+.explore .explore_title, .explore_text.light-grey {
+    text-align: center;
+}
 
+.explore_title {
+    font-size: 35px;
+    padding: 2rem 0;
+}
+
+.explore_text.light-grey {
+    font-size:  23px;
+    margin: 0;
+}
+
+/* card */
+
+.explore_caption_card {
+    font-size: 40px;
+}
+
+.explore_card_text.light-grey {
+    font-size: 20px;
+}
 
 
 

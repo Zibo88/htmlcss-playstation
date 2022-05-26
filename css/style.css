@@ -75,7 +75,7 @@ header{
 }
 
 .header_bottom_left_item a:hover{
-    color: #4675e5;
+    color: #0070d1;
 }
 
 
@@ -104,11 +104,14 @@ header{
 }
 
 .header_bottom_right_item .right_item_section:hover{
-    color: #4675e5;
+    color: #0070d1;
 }
 
 .header_bottom_right_item .right_item_section.btn_black:hover {
-    color: #4675e5;
+    color: #0070d1;
+    border: 1px solid black;
+    border-radius: 1rem;
+    
 }
 
 .header_bottom_right .hamburger{
@@ -285,12 +288,9 @@ header{
     display: inline-block;
 }
 
-
 .new_exit .col-6.col-sm-4.col-lg-2:hover img {
     opacity: 50%;
-
- }
-
+}
 
 .new_exit_caption.white {
     font-size: 21px;

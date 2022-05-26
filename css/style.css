@@ -11,10 +11,17 @@ ul {
     display: flex;
 }
 
+
 img{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
+
+/******** UTILITY *************/
 .text{
     font-size: 13px;
 }
@@ -27,8 +34,11 @@ img{
     color:#838383;
 }
 
-a{
-    text-decoration: none;
+section .btn_hover_white:hover {
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0.3rem 0.5rem;
+    color: white;
 }
 
 /****************** HEADER ***************/
@@ -153,13 +163,6 @@ header{
 
 .the_jambotron .text.white {
     margin: 1.5rem 0;
-}
-
-.the_jambotron .ms_card .shop-now.white:hover .btn_hover {
-    border: 2px solid #000000;
-    border-radius: 1rem;
-    padding: 0.3rem 0.5rem;
-    color: white;
 }
 
 /* bottone */

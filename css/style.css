@@ -172,7 +172,7 @@ header{
     margin: 1rem 0;
 }
 
-#border_card {
+#border_card img{
     border: 3px solid #3a8ad7;
     padding: 2px;
     border-radius: 1rem;
@@ -432,6 +432,7 @@ header{
     border-radius: 0;
 }
 
+
 /******************** FOOTER *********************/
 
 footer{
@@ -472,6 +473,7 @@ footer{
 
 
 /****************** MEDIA *******************/
+
 /* HEADER */
 
 /* left */
@@ -578,6 +580,13 @@ footer{
     }
 }
 
+/* NONA sezione */
+@media screen and (min-width:768px) {
+    .ps-plus {
+        padding: 0;
+    }
+}
+
 /* UNDICESIMA sezione */
 
 @media screen and (min-width:992px) {
@@ -590,6 +599,9 @@ footer{
 /* DODICESIMA sezione */
 
 @media screen and (min-width:768px) {
+    .social h2{
+        font-size: 40px;
+    } 
     .social .ms_card img {
         padding: 0.4rem;
         margin: 2rem 0;

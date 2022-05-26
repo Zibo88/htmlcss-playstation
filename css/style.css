@@ -54,7 +54,6 @@ header{
     width: 50px;
 }
 
-
 /* header bottom */
 .header_bottom.flex {
     justify-content: space-between;
@@ -134,7 +133,7 @@ header{
 
 .the_jambotron {
     margin-top: 75px;
-    padding: 180px 0 20px 0;
+    padding: 240px 0 20px 0;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -284,11 +283,6 @@ header{
 
 .new_exit_caption.white {
     font-size: 21px;
-}
-
-.tm{
-    vertical-align: super;
-    font-size: 10px;
 }
 
 

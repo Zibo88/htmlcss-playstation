@@ -183,6 +183,10 @@ header{
     border-radius: 1rem;
 }
 
+.ms_small_card img:hover  {
+    transform: translate(0px, -30px);
+}
+
 /* TERZA SEZIONE */
 
 .section_3_content {
@@ -225,7 +229,13 @@ header{
 
 .related-products .col-4.col-md-2:hover img {
     opacity: 50%;
-} 
+    border-bottom: 2px solid #5ca2df;
+    border-radius: 0;
+}
+
+.related-products .col-4.col-md-2 {
+    text-align: center;
+}
 
 
 /* SESTA sezione */
@@ -275,11 +285,12 @@ header{
     display: inline-block;
 }
 
-/* agisce anche sulle card della seconda sezione (html riga 164) */
-.col-6.col-sm-4.col-lg-2:hover img {
+
+.new_exit .col-6.col-sm-4.col-lg-2:hover img {
     opacity: 50%;
+
  }
-/****************************************************/
+
 
 .new_exit_caption.white {
     font-size: 21px;
@@ -303,11 +314,6 @@ header{
 .explore_text.light-grey {
     font-size:  23px;
     margin: 0;
-}
-
-.registred {
-    height: 30px;
-    vertical-align: super;
 }
 
 .registred i {

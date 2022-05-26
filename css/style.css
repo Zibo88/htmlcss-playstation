@@ -64,7 +64,6 @@ header{
 /* left */
 .header_bottom_left_list .header_bottom_left_item {
     display:none;
-
 }
 
 .header_bottom_left_list .header_bottom_left_item.play_logo {
@@ -78,7 +77,6 @@ header{
 .header_bottom_left_item a:hover{
     color: #0070d1;
 }
-
 
 .sm_play_logo {
     width: 50px;
@@ -112,7 +110,6 @@ header{
     color: #0070d1;
     border: 1px solid black;
     border-radius: 1rem;
-    
 }
 
 .header_bottom_right .hamburger{
@@ -432,6 +429,12 @@ header{
 .social .ms_card img {
     border-radius: 0;
 }
+
+.social .col-6.col-sm-3 .ms_card{
+    margin: 0;
+    padding: 0;
+}
+
 
 
 /******************** FOOTER *********************/

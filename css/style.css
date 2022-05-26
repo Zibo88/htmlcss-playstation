@@ -106,12 +106,6 @@ header{
     color: #0070d1;
 }
 
-.header_bottom_right_item .right_item_section.btn_black:hover {
-    color: #0070d1;
-    border: 1px solid black;
-    border-radius: 1rem;
-}
-
 .header_bottom_right .hamburger{
     font-size: 30px;
     line-height: 50px;
@@ -125,6 +119,13 @@ header{
 .header_bottom_right_list .header_bottom_right_item {
     display: none;
     line-height: 49px;
+}
+
+
+.header_bottom_right_item .right_item_section.btn_black:hover .btn_small {
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0.3rem 0.5rem;
 }
 
 
@@ -429,13 +430,6 @@ header{
 .social .ms_card img {
     border-radius: 0;
 }
-
-.social .col-6.col-sm-3 .ms_card{
-    margin: 0;
-    padding: 0;
-}
-
-
 
 /******************** FOOTER *********************/
 

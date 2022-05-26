@@ -197,7 +197,11 @@ header{
 
 .ms_small_card img:hover  {
     transform: translate(0px, -30px);
+    border: 3px solid #3a8ad7;
+    padding: 2px;
+    border-radius: 1rem;
 }
+
 
 /* TERZA SEZIONE */
 

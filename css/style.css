@@ -58,6 +58,7 @@ header{
 .header_bottom.flex {
     justify-content: space-between;
     background-color: white;
+    align-items: center;
 }
 
 /* left */
